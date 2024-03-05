@@ -4,6 +4,8 @@ from random import randint
 
 pygame.init() #initialise
 
+#git commit test 1
+
 #collision
 def collision(player, obstacles):
     if(obstacles):
