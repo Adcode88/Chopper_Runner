@@ -66,7 +66,7 @@ clock = pygame.time.Clock() #creating object clock of class
 background_surface = pygame.image.load('graphics/animebackground.png').convert_alpha() #importing image as surface
 
 #font setup
-font2 = pygame.font.Font('font/font2.ttf', 80) #creating font information(font type, font size) font type imported from ttf file
+font2 = pygame.font.Font('fonts/font2.ttf', 80) #creating font information(font type, font size) font type imported from ttf file
 
 #timing mechanism part 2
 sub_time = 0
