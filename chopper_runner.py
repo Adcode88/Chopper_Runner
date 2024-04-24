@@ -53,7 +53,7 @@ def disp_score():
 jump_sound = pygame.mixer.Sound('sounds/jumpsoundeffect.mp3')
 death_sound = pygame.mixer.Sound('sounds/deathsoundeffect.mp3')
 bgm = pygame.mixer.Sound('sounds/archers2soundtrack.mp3')
-jump_sound.set_volume(0.5)
+jump_sound.set_volume(0.05)
 death_sound.set_volume(0.5)
 bgm.set_volume(0.5)
 bgm.play(loops = -1)
